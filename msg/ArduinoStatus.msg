@@ -1,0 +1,6 @@
+uint16 servo_update_count
+uint16 encoder_msg_count
+uint16 main_loop_count
+uint16 main_loop_max
+bool armed
+uint8  status
