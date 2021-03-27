@@ -23,6 +23,8 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Encoder.msg"
   "msg/ArduinoStatus.msg"
+  "msg/ChassisState.msg"
+  "msg/ChassisCommand.msg"
   DEPENDENCIES builtin_interfaces
  )
 
