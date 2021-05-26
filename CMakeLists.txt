@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ChassisState.msg"
   "msg/ChassisCommand.msg"
   "msg/GPSStatus.msg"
+  "msg/WheelSpeed.msg"
   DEPENDENCIES builtin_interfaces std_msgs
  )
 
