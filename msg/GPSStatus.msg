@@ -18,4 +18,15 @@ int16 STATUS_SBAS_FIX=1  # Fixed using a satellite-based augmentation system
 int16 STATUS_GBAS_FIX=2  #          or a ground-based augmentation system
 int16 STATUS_DGPS_FIX=18 # Fixed with DGPS
 int16 STATUS_WAAS_FIX=33 # Fixed with WAAS
+
 int16 status
+
+int16 RTK_STATUS_NONE = 0
+int16 RTK_STATUS_FLOAT = 1
+int16 RTK_STATUS_FIXED = 2
+
+int16 rtk_status
+
+float32 vdop
+float32 hdop
+float32 pdop
