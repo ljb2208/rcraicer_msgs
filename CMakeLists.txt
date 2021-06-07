@@ -32,7 +32,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WheelSpeed.msg"
   "msg/StateEstimatorStatus.msg"
   "msg/ImuFilterOutput.msg"
-  DEPENDENCIES builtin_interfaces std_msgs
+  DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
  )
 
 if(BUILD_TESTING)
