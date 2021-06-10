@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ChassisCommand.msg"
   "msg/GPSStatus.msg"
   "msg/GPSSurvey.msg"
+  "msg/GPSRFStatus.msg"
   "msg/WheelSpeed.msg"
   "msg/StateEstimatorStatus.msg"
   "msg/ImuFilterOutput.msg"
